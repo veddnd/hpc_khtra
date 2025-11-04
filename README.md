@@ -9,3 +9,7 @@ mpirun -np 10 ./hello_world
 
 mpicxx q1.cxx -o q1
 mpirun -np 4 ./q1
+
+nano hello.c
+gcc hello.c -o hello
+./hello
